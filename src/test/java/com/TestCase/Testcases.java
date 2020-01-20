@@ -98,7 +98,9 @@ public class Testcases extends Baseclass
 	public void becomepartners() 
 	{
 		
-		driver.get("https://www.orangehrm.com/partners/");		
+		driver.get("https://www.orangehrm.com/partners/");	
+		driver.manage().window().maximize();
+		driver.close();
 	}
 	
 }
